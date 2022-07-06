@@ -36,3 +36,20 @@ public class GreatestofTwoNumbers {
         }
     }
 }
+
+// Using Inbuilt Method
+import java.util.Scanner;
+public class GreatestofTwoNumbers {
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Two Numbers");
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        if(num1==num2){
+            System.out.println("Numbers are Equal");
+        }
+        else{
+            System.out.println(Math.max(num1,num2)+""+"is Greater");
+        }
+    }
+}
