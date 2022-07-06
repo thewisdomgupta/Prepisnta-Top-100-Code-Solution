@@ -1,3 +1,4 @@
+// Using Brute Force Approach
 import java.util.Scanner;
 public class EvenOrOddNumbers {
     public static void main(String [] args){
