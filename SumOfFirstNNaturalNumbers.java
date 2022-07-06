@@ -15,7 +15,7 @@ public class SumOfFirstNNaturalNumbers {
 }
 
 
-// Sum of First N Natural Numbers
+// Using formula of Sum of First N Natural Numbers
 import java.util.Scanner;
 public class SumOfFirstNNaturalNumbers {
     public static void main(String [] args){
