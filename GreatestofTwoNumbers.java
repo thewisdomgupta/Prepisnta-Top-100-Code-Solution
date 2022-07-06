@@ -17,3 +17,22 @@ public class GreatestofTwoNumbers {
         }
     }
 }
+
+// Using Ternary Operator
+import java.util.Scanner;
+public class GreatestofTwoNumbers {
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Two Numbers");
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        if(num1==num2){
+            System.out.println("Numbers are Equal");
+
+        }
+        else{
+            String Result = num1>num2 ?  num1+ " "+"is Greater" : num2+" "+"is Greater";
+            System.out.println(Result);
+        }
+    }
+}
