@@ -1,3 +1,4 @@
+// Using Brute Force Approach
 import java.util.Scanner;
 public class GreatestofTwoNumbers {
     public static void main(String [] args){
